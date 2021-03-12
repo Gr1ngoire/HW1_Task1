@@ -12,24 +12,22 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" userInteractionEnabled="NO" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipG-nk-pNu">
-                                <rect key="frame" x="165" y="438" width="84" height="20"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello, User!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qd-BQ-DoT">
+                                <rect key="frame" x="162.5" y="442.5" width="89" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
-                                <size key="shadowOffset" width="0.0" height="0.0"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="ipG-nk-pNu" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="9YO-tD-awK"/>
-                            <constraint firstItem="ipG-nk-pNu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="394" id="RIF-IV-pgR"/>
-                            <constraint firstItem="ipG-nk-pNu" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="mBs-G4-Ds7"/>
+                            <constraint firstItem="2Qd-BQ-DoT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mft-xP-VhP"/>
+                            <constraint firstItem="2Qd-BQ-DoT" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="y7g-wF-c0V"/>
                         </constraints>
                     </view>
                 </viewController>
